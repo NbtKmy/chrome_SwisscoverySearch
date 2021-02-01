@@ -1,0 +1,17 @@
+{
+    "name": "Swisscovery search shortcut",
+    "version": "0.0.2",
+    "manifest_version": 2,
+    "description": "Ausgewählte Textstelle in Swisscovery suchen",
+    "icons": {
+        "16": "search_neko.png",
+        "48": "search_neko.png",
+        "128": "search_neko.png"
+    },
+    "permissions": [
+       "contextMenus"
+    ],
+    "background": {
+       "scripts": ["background_swisscov.js"]
+    }
+}
